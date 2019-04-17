@@ -26,7 +26,7 @@ function interpret(firstNum, commands, numbers){
 
     let result = firstNum;
 
-    for (let i=0; i< commands.length; i++) {
+    for (let i=2; i< commands.length; i++) {
 
       result = compute(result, commands, numbers, i);
 
