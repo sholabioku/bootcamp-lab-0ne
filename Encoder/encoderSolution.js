@@ -12,7 +12,7 @@ function encoderSolution(raw, code_words) {
     });
 
     const encoded = [];
-    raw.find((key) => {
+    raw.forEach((key) => {
       encoded.push(dict[key]);
     });
 
